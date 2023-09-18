@@ -59,9 +59,6 @@ li a {
 
 /* section-about-open */
 
-#selected a {
-}
-
 .About-detail-img {
   width: auto;
   height: 150px;
@@ -408,6 +405,45 @@ td {
   padding: 10px;
   border: 1px solid #ccc;
   min-width: 500px;
+}
+
+@media (max-width: 710px) {
+  #section-Contact {
+    /* background-color: #a2eece; */
+  }
+  table {
+    display: block;
+    width: 100%;
+  }
+  table tbody {
+    display: block;
+    width: 100%;
+  }
+  table tr {
+    display: block;
+    width: 100%;
+  }
+  table th {
+    display: block;
+  }
+
+  .input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 346px;
+    text-align: left;
+  }
+  th,
+  td {
+    padding: 0;
+  }
+
+  .textarea {
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid #ccc;
+    min-width: 364px;
+  }
 }
 
 /* コンテンツを非表示。 */
