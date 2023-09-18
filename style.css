@@ -152,12 +152,6 @@ dd {
   padding: 10px;
 }
 
-.portfolio-item {
-  /* background-color: skyblue;
-  width: 50%; */
-  /* height: 100px; */
-}
-
 .portfolio-img {
   /* background-color: red; */
   text-align: center;
@@ -233,8 +227,6 @@ dd {
   width: 70%;
 }
 
-.modal-img-size {
-}
 .modal-thumbnails {
   height: 200px;
   display: flex;
@@ -251,25 +243,19 @@ dd {
 .Readmore-button {
   width: 40px;
   height: 40px;
-  /* background: gold; */
   border-radius: 100%;
   background: #d2e5dd;
   color: #fff;
-  /* padding: 0 2em; */
   border: 0;
   float: right;
-  /* position: absolute;
-  right: 12%; */
 }
 
 .modal-close-button {
   width: 40px;
   height: 40px;
-  /* background: gold; */
   border-radius: 100%;
   background: #d2e5dd;
   color: #fff;
-  /* padding: 0 2em; */
   border: 0;
   float: right;
   position: absolute;
@@ -292,7 +278,6 @@ dd {
     display: block;
     background-color: white;
     height: 650px;
-    /* margin: 24%; */
     width: 89%;
     box-shadow: 0 2px 7px;
     left: -18%;
@@ -300,11 +285,9 @@ dd {
   .modal-close-button {
     width: 40px;
     height: 40px;
-    /* background: gold; */
     border-radius: 100%;
     background: #d2e5dd;
     color: #fff;
-    /* padding: 0 2em; */
     border: 0;
     float: right;
     position: absolute;
@@ -329,13 +312,11 @@ dd {
   /* text-align: left; */
   padding: 20px 0 20px 0;
   font-size: 23px;
-  /* border-bottom: solid 1px black; */
   max-width: 800px;
   margin: auto;
 }
 
 .skills-titel h2 {
-  /* display: inline-block; */
   position: relative;
   padding: 0 2.5em;
   color: #272020;
@@ -408,9 +389,6 @@ td {
 }
 
 @media (max-width: 710px) {
-  #section-Contact {
-    /* background-color: #a2eece; */
-  }
   table {
     display: block;
     width: 100%;
