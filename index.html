@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,300&family=Rubik:ital,wght@1,300&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="selected" data-id="section-about">
+            <a href="#">Home</a>
+          </li>
+          <li data-id="section-about-open"><a href="#">About</a></li>
+          <!-- <li data-id="section-about-open"><button>消す</button></li> -->
+          <li data-id="section-portfolio"><a href="#">Portfolio</a></li>
+          <li data-id="section-skills"><a href="#">Skills</a></li>
+          <li data-id="section-Contact"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-content selected" id="section-about">
+      <!-- <h1>About</h1> -->
+
+      <div class="About-img">
+        <img
+          src="https://images.unsplash.com/photo-1600172454132-ada7faa101cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8NTV8fHdoaXRlfGVufDB8fHx8MTY5NDY2NTM4M3ww&ixlib=rb-4.0.3&q=80&w=400"
+          alt=""
+        />
+        <p>ものづくりを通して喜びを分かち合いたいです。</p>
+      </div>
+  
+
+      <p></p>
+    </section>
+
+    <section class="section-content" id="section-about-open">
+      <div class="section-titel">
+        <h2>About</h2>
+      </div>
+      <p>
+        栃木県出身です。学生の時は音楽好きでバンドでベースをやっていました。
+        <br />
+        都内で働きながら音楽活動をしていました。宣伝の為に作成したWEBサイトがきっかけでITに興味を持ちました。
+        <br />
+        音楽を生業にするのは難しく、興味があったIT業界チャレンジしてみたいと思い転職しました。
+        <br />
+        サーバ監視、WEBシステムの製造、テストなどのを経験してきました。
+        <br />
+      </p>
+      <div class="About-detail-img">
+        <img src="images/panda.png" alt="" width="200px" height="200px" />
+        <dl>
+          <dt>所在地</dt>
+          <dd>東京に10年ほど住んでいます。吉祥寺の街が好きです。</dd>
+          <dt>学習教材</dt>
+          <dd>
+            udemyなどを使ってます。本より動画形式のプラットフォームが好きです。
+          </dd>
+          <dt>好きなIT技術</dt>
+          <dd>フロント周りのHTML、CSS、JavaScript、Reactが好きです。</dd>
+          <dt>サイト</dt>
+          <dd>
+            Qiita、teratail、stack overflowなどエラー調査でよく利用しています。
+          </dd>
+          <dt>Gitアカウント</dt>
+          <dd>
+            <a href="https://github.com/OkushimaTakeru" target="_blank">Git</a>へお気をつけて行ってらっしゃいませ！！
+          </dd>
+        </dl>
+      </div>
+
+      <!-- <div></div> -->
+    </section>
+
+    <section class="section-content" id="section-portfolio">
+      <div class="section-titel">
+        <h2>Portfolio</h2>
+      </div>
+
+      <div class="portfolio-container">
+        <div class="portfolio-item">
+          <article class="portfolio-img">
+            <img src="images/lp.jpeg" alt="" width="400" height="300" />
+            <div class="portfolio-btn">
+                <!-- <button id="Readmore-opne" class="Readmore-button">
+                </button> -->
+              <div class="portfolio-btn">
+                <p>
+                  <a href="https://okushimatakeru.github.io/LP_WEB/" target="_blank">Readmore</a>
+                </p>
+              </div>
+            </div>
+          </article>
+          <div class="portfolio-info">
+            <p>LPサイト</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <article class="portfolio-img">
+            <img src="images/hello.png" alt="" width="400" height="300" />
+            <div class="portfolio-btn">
+              <p>
+                <a href="https://okushimatakeru.github.io/HelloWorld/" target="_blank">Readmore</a>
+              </p>
+            </div>
+          </article>
+          <div class="portfolio-info">
+            <p>コーポレートサイト</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <article class="portfolio-img">
+            <img src="images/profile.png" alt="" width="400" height="300" />
+            <div class="portfolio-btn">
+              <p>
+                <a href="#" target="_blank">Readmore</a>
+              </p>
+            </div>
+          </article>
+          <div class="portfolio-info">
+            <p>Profileサイト</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <article class="portfolio-img">
+            <img src="images/panda.png" alt="" />
+            <div class="portfolio-btn">
+              <p>
+                <!-- <a href="#" target="_blank">準備中</a> -->
+                <p style="font-size: 1em;color: black;">試行錯誤中です</p>
+              </p>
+            </div>
+          </article>
+          <div class="portfolio-info">
+            <p>試行錯誤中です</p>
+          </div>
+        </div>
+
+        <!-- モーダル -->
+        <!-- <section class="modal" id="modalid">
+          <div class="modal-open">
+            <div class="modal-explanation">
+              <h3>タイトル</h3>
+              <p>詳細</p>
+              <p>
+                <a href=""></a>
+              </p>
+              <h4>使用言語</h4>
+              <p>HTML5</p>
+              <p><a href="">github</a></p>
+            </div>
+            <button id="modal-close" class="modal-close-button">X</button>
+            <article class="portfolio-img">
+              <div class="modal-img">
+                <img src="images/lp.jpeg" alt="" width="330" height="390" />
+                <div class="portfolio-btn">
+                  <p>
+                    <a
+                      href="https://okushimatakeru.github.io/LP_WEB/"
+                      target="_blank"
+                      >Readmore</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section> -->
+
+      </div>
+    </section>
+
+    <section class="section-content" id="section-skills">
+      <div class="section-titel">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-detail">
+        <!-- <p>
+          修練のすえ身につけたスキルをグラフィカルにまとめました。広く浅くではありますがフロントからバックエンドまで幅広くスキルアップに取り組んできました。オールラウンドに対応できる点が強みですが、全体的に理解が浅く、専門性の低さを認識しています。今後はバックエンド系の開発（クラウド含む）の業務に携わる比率を増やし、少しずつ専門性を高めていきたいと考えています。
+        </p> -->
+      </div>
+      <div class="skills-titel">
+        <p>Front-End   / FrameWork</p>
+      </div>
+      <div class="skills-detail-img">
+        <img src="images/html-5.png" alt="" width="100" height="100" />
+        <img src="images/css-3.png" alt="" width="100" height="100" />
+      </div>
+      <div class="skills-detail-img-p">
+        <p>
+          HTML・CSSの実務経験はありませんが、趣味でコーディングをしています。シンプルなデザインが好きです。
+        </p>
+      </div>
+      <div class="skills-detail-img">
+        <img src="images/js.png" alt="" width="100" height="100" />
+      </div>
+      <div class="skills-detail-img-p">
+        <p>実務経験では電子カルテシステムの保守作業などに従事していました。言語はJavaScriptを使用していました。</p>
+      </div>
+      <div class="skills-detail-img">
+        <img src="images/react.png" alt="" width="100" height="100" />
+        <img src="images/nodejs.jpeg" alt="" width="100" height="100" />
+      </div>
+      <div class="skills-detail-img-p">
+        <p>実務では経験はありませんが、モダンな技術も習得したいと勉強中です。</p>
+      </div>
+      <div class="skills-titel">
+        <p>Back-End/FrameWork</p>
+      </div>
+      <div class="skills-detail-img">
+        <img src="images/java.png" alt="" width="100" height="100" />
+        <img src="images/springboot.png" alt="" width="100" height="100" />
+      </div>
+      <div class="skills-detail-img-p">
+        <p>実務ではレンタル電子機器端末のシステム開発に従事していました。言語はJavaでフレームワークはSpringBootを使用していました。</p>
+      </div>
+      <div class="skills-titel">
+        <p>DataBase</p>
+      </div>
+      <div class="skills-detail-img">
+        <img src="images/sql-server.png" alt="" width="100" height="100" />
+      </div>
+      <div class="skills-detail-img-p">
+        <p>システムの保守、アプリ製造・テストの際にSQLを使い調査またはデータ作成を行なっていました。
+        
+        </p>
+      </div>
+      <div class="skills-titel">
+        <p>VersionControl</p>
+      </div>
+      <div class="skills-detail-img">
+        <img src="images/svn.png" alt="" width="100" height="100" />
+        <img src="images/git.png" alt="" width="100" height="100" />
+      </div>
+      <div class="skills-detail-img-p">
+        <p>
+          svnはレンタル電子機器端末のシステム開発の際にを使用していました。gitは実務経験はありませんが個人でコーディングする際に使用しています。
+        </p>
+      </div>
+        
+ 
+    </section>
+
+    <section class="section-content" id="section-Contact">
+      <h1>Contact</h1>
+      <form class="" action="#">
+        <table>
+          <tr>
+            <th><label for="name">Name</label></th>
+            <td>
+              <input type="text" class="input" />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="Email">Email</label></th>
+            <td>
+              <input type="text" class="input" />
+            </td>
+          </tr>
+          <tr>
+            <th><label for="textarea">Detail</label></th>
+            <td>
+              <textarea cols="50" rows="10" class="textarea"></textarea>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+
+    <main></main>
+  </body>
+
+  <script src="index.js"></script>
+</html>
